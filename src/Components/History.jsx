@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Values } from "../App";
-import AllAmount from "./allAmount";
+import AllAmount from "./AllAmount";
 const History = () => {
   const consContext = useContext(Values);
   console.log("Histry", consContext);
